@@ -1,18 +1,13 @@
-## Getting Started
+Project made by João Ramos and Theo Miguel
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+To run the "MavenGuide" you need to clone the repository
+in the repository 
+mvn install
+mvn compile
+mvn package
+java -jar target/gs-maven-0.1.0.jar
 
-## Folder Structure
+for some misterious way the code is not compiling but running normaly, maybe some error with the mvn or java version
+run mvn test and note that its run without issues
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+The beecrowd exercise was completed but not automated
